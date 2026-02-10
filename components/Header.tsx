@@ -1,0 +1,20 @@
+
+import React from 'react';
+
+export const Header: React.FC = () => {
+  return (
+    <header className="bg-white shadow-md">
+      <div className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+            365
+          </div>
+          <h1 className="text-xl md:text-2xl font-bold text-slate-800">
+            365-Day English Journey
+          </h1>
+        </div>
+        <p className="hidden md:block text-slate-500">Your daily dose of English!</p>
+      </div>
+    </header>
+  );
+};
